@@ -10,6 +10,9 @@
  */
 require_once 'vendor/autoload.php';
 
+
+
+
 // Define the routes table
 $routes = array(
     '/\/hello\/(.+)/' => array('HelloController', 'helloAction')
